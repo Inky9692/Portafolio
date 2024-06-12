@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>PORTAFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenido-header">
+        <header>
+            <div class="logo">
+                <a href="#">ANDREA DÍAZ</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#INICIO" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#SOBREMI" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#CURRICULUM" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#PORTAFOLIO" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#CONTACTO" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECCIÓN INICIO-->
+    <section id="INICIO" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenido-img">
+                <img src="/img/pixelcut-export.jpg" alt="">
+            </div>
+            <h1>ANDREA DÍAZ</h1>
+            <h2>Ingeniera en Sistemas - Programador Junior</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/andivelas?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://github.com/Inky9692"><i class="fa-brands fa-github"></i></a>
+                <a href="www.linkedin.com/in/andrea-diaz-a369a4124"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.behance.net/andreavelasquez19"><i class="fa-brands fa-square-behance"></i></a>
+                <a href="https://wa.me/50240648237"><i class="fa-brands fa-square-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCIÓN SOBRE MI-->
+    <section id="SOBREMI" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+                <p><span>Hola, soy Andrea Díaz.</span>Una apasionada desarrolladora junior con una sólida formación en ingeniería en sistemas. Desde muy joven, he sentido una profunda fascinación por la tecnología 
+                y su capacidad para transformar el mundo que nos rodea. Mi enfoque se centra en crear soluciones
+                innovadoras y eficientes que resuelvan problemas del mundo real y mejoren la experiencia de usuario.
+                    Mi trayectoria académica y mis proyectos personales me han proporcionado una base sólida en 
+                    lenguajes de programación como HTML, CSS, JavaScript, Python, SQL Server y un poco de del framework
+                    de DJango. Estoy constantemente buscando aprender y mejorar mis habilidades, manteniéndome al día 
+                    con las últimas tendencias y tecnologías en el campo del desarrollo de software.                    
+                    Además de mis habilidades técnicas, soy una comunicadora efectivo y un colaborador entusiasta.
+                    Disfruto trabajando en equipo y contribuyendo con ideas creativas para alcanzar objetivos comunes.
+                    Mi enfoque orientado a resultados y mi capacidad para enfrentar desafíos con determinación me 
+                    convierten en un recurso valioso para cualquier equipo de desarrollo. Cada reto que se me presenta es
+                    una posibilidad más para demostrar quien soy.                    
+                    Estoy emocionado por la oportunidad de poner en práctica mis habilidades y conocimientos en un 
+                    entorno profesional. Creo firmemente que mi pasión por la tecnología, mi actitud proactiva y mi 
+                    dedicación al aprendizaje continuo me convierten en un candidato ideal para contribuir al éxito de su equipo.                    
+                    ¡Estoy ansiosa por hablar más sobre cómo puedo agregar valor a su empresa y contribuir al logro de sus
+                    objetivos!</p>
+
+                <div class="fila">
+                    <!--datos personales -->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                29/07/1996
+                            </li>
+                            <li>
+                                <strong>Teléfono</strong>
+                                (+502) 4064-8237
+                            </li>
+                            <li>
+                                <strong>Correo</strong>
+                                andreavelas18@gmail.com
+                            </li>
+                            <li>
+                                <strong>Website</strong>
+                                www.limskavd.com
+                            </li>
+                            <li>
+                                <strong>Dirección</strong>
+                                Municipio de Tejutla, San Marcos, Guatemala
+                            </li>
+                            <li>
+                                <strong>Cargo</strong>
+                                <span>FREELANCE</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--intereses-->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenido-intereses">
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>JUEGOS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-book"></i>
+                                <span>LIBROS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones-simple"></i>
+                                <span>MÚSICA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-basketball"></i>
+                                <span>DEPORTE</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-car-side"></i>
+                                <span>VIAJAR</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-people-roof"></i>
+                                <span>FAMILIA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-laptop-code"></i>
+                                <span>PROGRAMAR</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-paw"></i>
+                                <span>MASCOTAS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="/docs/Modern Resume (1).pdf" download>
+                    <button class="button">
+                        Descargar CV <i class="fa-solid fa-download"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </a>
+        </div>
+    </section>
+    
+    <!--SECCIÓN DE HABILIDADES-->
+     <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!--HABILIDADES TÉCNICAS-->
+                <div class="col">
+                    <h3>Habilidades Técnologicas</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Inglés</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Django</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--HABILIDADES PROFESIONALES-->
+                <div class="col">
+                    <h3>Habilidades Preofesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>68%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Facilidad de aprendizaje</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!--SECCIÓN CURRICULUM-->
+     <section id="CURRICULUM" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingeniería en Sistemas</h4>
+                        <span class="casa">Universidad Mariano Gálvez</span>
+                        <span class="fecha">2016 - 2024</span>
+                        <p>Actualmente curso el noveno semestre de la carrera de Ingeniería en Sistemas, con 33 cursos aprobados</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Certificación de Python </h4>
+                        <span class="casa">Person VUE</span>
+                        <span class="fecha">Febrero 5, 2024</span>
+                        <p>Certificado que obtuve por aprobar el curso de Introducción a Python a través de Certiport</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Certificación de Networking</h4>
+                        <span class="casa">Person VUE</span>
+                        <span class="fecha">Noviembre 2, 2023</span>
+                        <p>Certificado que obtuve por aprobar el curso de Networking a través de Certiport</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Secretaria</h4>
+                        <span class="casa">Bufete Juridico "ARANA ROMERO"</span>
+                        <span class="fecha">2019 - 2024</span>
+                        <p>Desde el 29 de Julio del año 2019 laboro con el Licenciado Walte Arana</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Gestora</h4>
+                        <span class="casa">Tramitadora de Pasaportes y Visas</span>
+                        <span class="fecha">2020 - 2024</span>
+                        <p>Soy gestora en la obtención y procesamiento de documentos, pasaportes y visas</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Comerciante</h4>
+                        <span class="casa">Venta de Calzado</span>
+                        <span class="fecha">2015 - 2019</span>
+                        <p>Venta de calzado para dama, caballero y niño de toda clase</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!--SECCIÓN DE PORTAFOLIO-->
+     <section id="PORTAFOLIO" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/ESCUELAMUSICAL.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Escuela Miguel Maurillo</h3>
+                        <p>Prototipo FIGMA</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img  src="img/CRUD DJANGO.png" alt="" height="240">
+                    <div class="overlay">
+                        <h3>CRUD DJANGO</h3>
+                        <p>Uso del framework</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/CRUD JAVASCRIPT.png" alt="" height="240">
+                    <div class="overlay">
+                        <h3>CRUD JAVASCRIPT</h3>
+                        <p>Uso de Mysql</p>
+                    </div>
+                </div>
+                <!--<div class="proyecto">
+                    <img src="img/img4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/img5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/img6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+     </section>
+
+     <!--SECCIÓN DE CONTACTO-->
+
+     <section id="CONTACTO" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--FORMULARIO-->
+                <div class="milogo">
+                    <img src="img/MI LOGO.jpg" alt="">
+                </div>
+                <!--MAPA-->
+                <div class="col">
+                    <img src="img/Screenshot_2.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Tejutla, San Marcos, Guatemala
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Llamame al: 4064 8237
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: andreavleas18@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!--FOOTER-->
+    <footer>
+        <a href="#INICIO" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-behance"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+            <div class="fin">
+                <p>ANDREA LIMSKA VELÁSQUEZ DÍAZ</p>
+                <p>Derechos Reservados</p>
+            </div>
+        </div>
+        
+        
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
